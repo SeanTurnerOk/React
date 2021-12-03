@@ -1,10 +1,9 @@
 import LoginComp from "../components/LoginComp"
 import React from "react"
-import { PromiseProvider } from "mongoose"
 
 function Login(props){
     return(
-        <LoginComp history={props.history}/>
+        <LoginComp userProfile={props.userProfile}/>
     )
 }
 export default Login

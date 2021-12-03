@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
-
-mongoose.connect('mongodb://localhost/refridgerator',{
+//connecting to the actual mongoDB database
+mongoose.connect('mongodb://localhost/refrigerator',{
     useNewUrlParser:true,
     useUnifiedTopology:true
 })
